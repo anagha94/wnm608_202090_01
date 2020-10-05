@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&family=Varela+Round&display=swap');
+
+
 /* CSS RESET */
 
 *, *::after, *::before {
@@ -9,9 +12,9 @@
 	--color-neutral-medium: #999;
 	--color-neutral-dark: #555;
 
-	--color-main-light: lightblue;
-	--color-main-medium: blue;
-	--color-main-dark: darkblue;
+	--color-main-light: #9dd0f2;
+	--color-main-medium: #20A6FF;
+	--color-main-dark: #09598f;
 
 
 	--color-black: #000;
@@ -20,14 +23,14 @@
 	--header-height: 3rem;
 	--spacing: 1rem;
 
-	--font-serif: Georgia, "Times New Roman", serif;
-	--font-sans: Helvetica, Arial, sans-serif;
+	--font-serif:'Varela Round', sans-serif;
+	--font-sans: 'Quicksand', sans-serif;
 }
 
 body {
 	margin: 0;
 	font-size: 100%;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Quicksand', sans-serif;
 }
 
 h1,
@@ -36,7 +39,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: Georgia, "Times New Roman", serif;
+	font-family: 'Varela Round', sans-serif;
 }
 
 a {
