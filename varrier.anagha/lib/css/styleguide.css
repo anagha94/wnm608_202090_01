@@ -8,7 +8,7 @@
 }
 
 :root {
-	--color-neutral-light: #eee;
+	--color-neutral-light: #efefef;
 	--color-neutral-medium: #999;
 	--color-neutral-dark: #555;
 
@@ -16,8 +16,12 @@
 	--color-main-medium: #20A6FF;
 	--color-main-dark: #09598f;
 
+	--color-second-pink: #F98FBF;
+	--color-second-yellow: #FFCD3C;
+	--color-second-green: #AEF559;
 
-	--color-black: #000;
+
+	--color-black: #434343;
 	--color-white: #fff;
 
 	--header-height: 3rem;
@@ -227,17 +231,17 @@ a:hover {
 	.card.soft {
 
 		border-radius: 0.5em;
-		box-shadow: 0 0 10px rgbs(0,0,0,0.1);
+		box-shadow: 0 0 10px rgba(0,0,0,0.1);
 	}
 
 	.card.hard {
 
 		border-radius: 0.2em;
-		border: 2px solid var(--color-neutral-medium);
+		border: 2px solid var(--color-main-medium);
 	}
 
 	.card.dark {
-		background-color: var(--color-neutral-dark);
+		background-color: var(--color-main-medium);
 		color: var(--color-neutral-light);
 	}
 
@@ -374,6 +378,7 @@ a:hover {
 .form-button {
 	
 	padding: 0.5em 1em;
+	margin-left: 0.5em;
 	background-color: var(--color-main-medium);
 	cursor: pointer;
 	text-align: center;
@@ -403,13 +408,13 @@ a:hover {
 
 .hotdog.dark {
 
-	background-color: var(--color-neutral-dark);
+	background-color: var(--color-main-medium);
 	color: var(--color-white);
 }
 
 .hotdog.light {
 
-	background-color: var(--color-neutral-light);
+	background-color: var(--color-white);
 	color: var(--color-black);
 }
 

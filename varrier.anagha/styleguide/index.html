@@ -119,12 +119,60 @@
 		</div>
 	</section>
 
+	<section class="container" id="colors">
+		<h2>Colors</h2>
+
+		<div class="card soft">
+
+		<div class="grid gap">
+			<div class="col-xs-12 col-md-4">
+				<div class="card soft">White</div>
+			</div>
+			<div class="col-xs-12 col-md-4">
+				<div class="card dark" style="background-color: var(--color-black);">Black</div>
+			</div> <br>
+			<div class="col-xs-12 col-md-4">
+				<div class="card dark" style="background-color: var(--color-neutral-dark);">Neutral Dark &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#555555</div>
+			</div>
+			<div class="col-xs-12 col-md-4">
+				<div class="card dark" style="background-color: var(--color-main-dark);">Cool Blue Dark &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#09598f</div>
+			</div>
+			<div class="col-xs-12 col-md-4">
+				<div class="card" style="background-color: var(--color-second-pink);">Bubble Pink &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#F98FBF</div>
+			</div>
+			<div class="col-xs-12 col-md-4">
+				<div class="card" style="background-color: var(--color-neutral-medium);">Neutral Medium &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#999999</div>
+			</div>
+			<div class="col-xs-12 col-md-4">
+				<div class="card" style="background-color: var(--color-main-medium);">Cool Blue Medium &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#20A6FF</div>
+			</div>
+			<div class="col-xs-12 col-md-4">
+				<div class="card" style="background-color: var(--color-second-yellow);">Sunshine Yellow &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#FFCD3C</div>
+			</div>
+			<div class="col-xs-12 col-md-4">
+				<div class="card" style="background-color: var(--color-neutral-light);">Neutral Light &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#efefef</div>
+			</div>
+			<div class="col-xs-12 col-md-4">
+				<div class="card" style="background-color: var(--color-main-light);">Cool Blue Light &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#9dd0f2</div>
+			</div>
+			<div class="col-xs-12 col-md-4">
+				<div class="card" style="background-color: var(--color-second-green);">Green Pop &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#AEF559</div>
+			</div>
+		</div>
+			
+		</div>
+	</section>
+
 
 
 
 	<section class="container" id="viewwindow">
 		<h2>View Window</h2>
+
+		<div class="view-window" style="background-image:url('../img/boba1.jpg')">
 	</section>
+
+
 
 
 
@@ -134,7 +182,7 @@
 
 		<script>
 		const makeNav = (classes='') => {
-			const links = ['home','store','about'];
+			const links = ['Home','Store','About'];
 			let ran = Math.floor(Math.random()*links.length);
 			document.write(`
 			<div>
@@ -197,7 +245,7 @@
 
 
 
-
+<!--
 	<section class="container" id="gridsystem">
 		<h2>Grid System</h2>
 	</section>
@@ -207,7 +255,7 @@
 
 	<section class="container" id="flexsystem">
 		<h2>Flex System</h2>
-	</section>
+	</section> -->
 
 
 
@@ -391,14 +439,14 @@
 			<h3>Hotdogs with Icons</h3>
 			<div class="form-control">
 				<form class="hotdog">
-					<span>&equiv;</span>
+					<span>&#129380;</span>
 					<input type="search" placeholder="Search">
 				</form>
 			</div>
 			<div class="form-control">
 				<form class="hotdog">
 					<input type="search" placeholder="Search">
-					<span>&equiv;</span>
+					<span>&#129380;</span>
 				</form>
 			</div>
 		</div>
@@ -574,34 +622,34 @@
 	<section class="container">
 		<h2 id="figures">Figures</h2>
 
-		<div class="card">
+		<!--<div class="card">
 			<h3 id="basicfigure">Basic Figure</h3>
 
 			<figure class="figure">
-				<img src="https://via.placeholder.com/400x400?text=product" alt="">
+				<img src="../img/boba2.jpeg" alt="">
 				<figcaption>Product</figcaption>
 			</figure>
 
-		</div>
+		</div>-->
 
 		<h3>Figure Grid</h3>
 
 		<div class="grid gap">
 			<div class="col-xs-12 col-md-4">
 				<figure class="figure">
-					<img src="https://via.placeholder.com/400x400?text=product" alt="">
+					<img src="../img/boba2.jpg" alt="">
 					<figcaption>Product</figcaption>
 				</figure>
 			</div>
 			<div class="col-xs-12 col-md-4">
 				<figure class="figure">
-					<img src="https://via.placeholder.com/400x400?text=product" alt="">
+					<img src="../img/boba2.jpg" alt="">
 					<figcaption>Product</figcaption>
 				</figure>
 			</div>
 			<div class="col-xs-12 col-md-4">
 				<figure class="figure">
-					<img src="https://via.placeholder.com/400x400?text=product" alt="">
+					<img src="../img/boba2.jpg" alt="">
 					<figcaption>Product</figcaption>
 				</figure>
 			</div>
@@ -612,7 +660,7 @@
 		<div class="grid gap">
 			<div class="col-xs-12 col-md-4">
 				<figure class="figure product">
-					<img src="https://via.placeholder.com/400x400?text=product" alt="">
+					<img src="../img/boba2.jpg" alt="">
 					<figcaption>
 						<div>Product Name</div>
 						<div>$3.99</div>
@@ -621,7 +669,7 @@
 			</div>
 			<div class="col-xs-12 col-md-4">
 				<figure class="figure product">
-					<img src="https://via.placeholder.com/400x400?text=product" alt="">
+					<img src="../img/boba2.jpg" alt="">
 					<figcaption>
 						<div>Product Name</div>
 						<div>$3.99</div>
@@ -630,7 +678,7 @@
 			</div>
 			<div class="col-xs-12 col-md-4">
 				<figure class="figure product">
-					<img src="https://via.placeholder.com/400x400?text=product" alt="">
+					<img src="../img/boba2.jpg" alt="">
 					<figcaption>
 						<div>Product Name</div>
 						<div>$3.99</div>
@@ -644,7 +692,7 @@
 		<div class="grid gap">
 			<div class="col-xs-12 col-md-4">
 				<figure class="figure product-overlay">
-					<img src="https://via.placeholder.com/400x400?text=product" alt="">
+					<img src="../img/boba2.jpg" alt="">
 					<figcaption>
 						<div class="caption-body">
 							<div>Product Name</div>
@@ -655,7 +703,7 @@
 			</div>
 			<div class="col-xs-12 col-md-4">
 				<figure class="figure product-overlay">
-					<img src="https://via.placeholder.com/400x400?text=product" alt="">
+					<img src="../img/boba2.jpg" alt="">
 					<figcaption>
 						<div class="caption-body">
 							<div>Product Name</div>
@@ -666,7 +714,7 @@
 			</div>
 			<div class="col-xs-12 col-md-4">
 				<figure class="figure product-overlay">
-					<img src="https://via.placeholder.com/400x400?text=product" alt="">
+					<img src="../img/boba2.jpg" alt="">
 					<figcaption>
 						<div class="caption-body">
 							<div>Product Name</div>
