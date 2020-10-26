@@ -167,14 +167,14 @@ a:hover {
 }
 
 .nav-material a:hover {
-	background-color: var(--color-neutral-light);
-	color: inherit;
+	background-color: transparent;
+	color: var(--color-neutral-dark);
 }
 
 .nav-material .active a {
 
 	background-color: transparent;
-	color: inherit;
+	color: var(--color-neutral-dark);;
 }
 
 .nav-material a::after {
@@ -198,8 +198,8 @@ a:hover {
 
 .navbar {
 
-	background-color: var(--color-neutral-dark);
-	color: var(--color-white);
+	background-color: var(--color-white);
+	color: var(--color-neutral-dark);
 	line-height: var(--header-height);
 }
 
@@ -257,12 +257,24 @@ a:hover {
 
 .view-window {
 
+	margin-top: 50px;
 	height: 50vh;
 	position: relative;
 	overflow: hidden;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
+}
+
+.full-image {
+
+	margin-top: 10px;
+	height: 50vh;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	background-attachment: none;
 }
 
 
