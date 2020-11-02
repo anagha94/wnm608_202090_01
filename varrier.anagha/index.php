@@ -26,9 +26,9 @@
 					<li><a href="#">Home</a></li>
 					<li><a href="store.php">Store</a></li>
 					<li><a href="about.php">About</a></li>
-					<li><form class="hotdog" style="margin: 2.5em;box-sizing: content-box;">
+					<li><form class="hotdog" style="margin: 1em;box-sizing: content-box;">
 					<span>&#129380;</span>
-					<input type="search" placeholder="Search for your favorite Bubble tea"></form>
+					<input type="search" placeholder="Search for your favorite drink"></form>
 					</li>
 				</ul>
 			</nav>
