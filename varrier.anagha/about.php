@@ -23,9 +23,9 @@
 			<div class="flex-stretch"></div>
 			<nav class="flex-none nav">
 				<ul class="container display-flex">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="store.html">Store</a></li>
-					<li><a href="about.html">About</a></li>
+					<li><a href="index.php">Home</a></li>
+					<li><a href="store.php">Store</a></li>
+					<li><a href="about.php">About</a></li>
 				</ul>
 			</nav>
 		</div>

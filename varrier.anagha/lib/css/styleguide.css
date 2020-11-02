@@ -24,7 +24,7 @@
 	--color-black: #434343;
 	--color-white: #fff;
 
-	--header-height: 3rem;
+	--header-height: 1rem;
 	--spacing: 1rem;
 
 	--font-serif:'Varela Round', sans-serif;
@@ -162,7 +162,7 @@ a:hover {
 
 .nav-material a {
 
-	padding: 0.5em 1em;
+	padding: 1em 2em;
 	position: relative;
 }
 
@@ -206,14 +206,16 @@ a:hover {
 	.navbar h1 {
 
 		font-size: 1em;
-		margin: 0;
+		margin: 3em;
 		font-family:var(--font-sans);x
 	}
 
 	.navbar a {
 
 		padding: 0 0.5em;
+		margin: 3em 1em;
 	}
+
 
 /* CARD */
 
