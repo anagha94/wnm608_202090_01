@@ -83,7 +83,7 @@
 						<div class="caption-body">
 							<div>Product Name</div>
 							<div>$3.99</div>
-						</div>
+						</div>.[=]
 					</figcaption>
 				</figure>
 			</div>

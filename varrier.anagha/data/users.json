@@ -1,0 +1,59 @@
+[
+
+	{
+
+		"name": "Anagha Varrier",
+		"type": "Student",
+		"email": "avarrier2@art.edu",
+		"classes": [608,617,820]
+	},
+
+	{
+
+		"name": "Aang",
+		"type": "Avatar, Airbender",
+		"email": "avataraang@art.edu",
+		"classes": [608,617,820]
+	},
+
+	{
+
+		"name": "Katara",
+		"type": "Waterbender",
+		"email": "kickasskatara@art.edu",
+		"classes": [608,617,820]
+	},
+
+	{
+
+		"name": "Toph",
+		"type": "Earthbender",
+		"email": "tufftoph@art.edu",
+		"classes": [608,617,820]
+	},
+
+	{
+
+		"name": "Zuko",
+		"type": "Firebender",
+		"email": "princezuko@art.edu",
+		"classes": [608,617,820]
+	},
+
+	{
+
+		"name": "Sokka",
+		"type": "Warrior",
+		"email": "sokkaiscool@art.edu",
+		"classes": [608,617,820]
+	},
+
+	{
+
+		"name": "Uncle Iroh",
+		"type": "Best Uncle Ever",
+		"email": "ilovejasminetea@art.edu",
+		"classes": [608,617,820]
+	}
+
+]
