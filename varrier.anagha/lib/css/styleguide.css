@@ -449,7 +449,7 @@ a:hover {
 .form-select::after {
 
 	position: absolute;
-	content: '▾';
+	content: 'â–¾';
 	font-family: arial, sans-serif;
 	font-size: 1.2em;
 	top: 50%;

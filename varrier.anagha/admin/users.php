@@ -1,8 +1,8 @@
 <?php
 
-include "../lib/php/functions.php";
+include "lib/php/function.php";
 
-$users = file_get_json("../data/users.json");
+$users = file_get_json("data/users.json");
 
 
 function showUserPage($user) {
@@ -46,7 +46,7 @@ HTML;
 	<title>Users Admin Page </title>
 
 
-	<?php include "../parts/meta.php"; ?>
+	<?php include "parts/meta.php"; ?>
 
 </head>
 
