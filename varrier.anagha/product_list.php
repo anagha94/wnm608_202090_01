@@ -30,15 +30,14 @@
 				</ul>
 			</nav>
 		</div>
-	</header>
+</header>
 
 
 <div class="container">
-	<div class="card soft">
 		<h2>Product List</h2>
 
 
-		<? php
+		<?php
 
 		include_once "lib/php/functions.php";
 		include_once "parts/templates.php";
@@ -55,12 +54,11 @@
 		);
 
 		
-		echo "<div class='grid gap'>", array_reduce($result, 'productListTemplate'),"</div";
+		echo '<div class="productlist grid gap">', array_reduce($result, 'productListTemplate'),'</div>';
 
 
 		?>
 
-	</div>
 </div>
 </body>
 </html>

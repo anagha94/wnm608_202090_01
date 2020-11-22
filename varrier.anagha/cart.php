@@ -22,7 +22,8 @@
 	<title>Cart Page</title>
 	<?php include "parts/meta.php"; ?>
 </head>
-<body class="body1">
+<body>
+
 	<header class="navbar nav-material">
 		<div class="container display-flex">
 			<div class="flex-none">
@@ -31,17 +32,15 @@
 			<div class="flex-stretch"></div>
 			<nav class="flex-none nav">
 				<ul class="container display-flex">
-					<li><a href="#">Home</a></li>
+					<li><a href="index.php">Home</a></li>
 					<li><a href="store.php">Store</a></li>
 					<li><a href="about.php">About</a></li>
-					<li><form class="hotdog" style="margin: 1em;box-sizing: content-box;">
-					<span>&#129380;</span>
-					<input type="search" placeholder="Search for your favorite drink"></form>
-					</li>
+					<li><a href="cart.php">Cart</a></li>
 				</ul>
 			</nav>
 		</div>
 	</header>
+	
 
 	<div class="container">
 		<h2>In Your Cart</h2>

@@ -26,6 +26,7 @@
 					<li><a href="index.php">Home</a></li>
 					<li><a href="store.php">Store</a></li>
 					<li><a href="about.php">About</a></li>
+					<li><a href="cart.php">Cart</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -39,19 +40,36 @@
 	</section>
 
 
-		<div class="card soft">
-			
-			<div class="form-control">
-				<form class="hotdog">
-					<span>&#129380;</span>
-					<input type="search" placeholder="Search for your favorite Bubble tea">
-				</form>
-			</div>
-		</div>
-
 	<section class="container">
 
 		<h3 id="overlayfigure">Popular Choices</h3>
+
+		<div class="container">
+
+
+		<?php
+
+		include_once "lib/php/functions.php";
+		include_once "parts/templates.php";
+
+		$result = makeQuery(makeConn(),
+
+
+		"
+		SELECT *
+		FROM `prodcuts`
+		LIMIT 12
+		"
+
+		);
+
+		
+		echo '<div class="productlist grid gap">', array_reduce($result, 'productListTemplate'),'</div>';
+
+
+		?>
+
+</div>
 
 		<div class="grid gap">
 			<div class="col-xs-12 col-md-4">

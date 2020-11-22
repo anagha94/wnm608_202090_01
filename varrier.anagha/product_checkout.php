@@ -1,3 +1,11 @@
+<?php 
+
+include_once "lib/php/functions.php";
+
+
+ ?>
+
+
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
